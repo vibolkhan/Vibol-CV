@@ -203,6 +203,7 @@ i {
     }
 
     .content .text {
+        margin: auto;
         width: 100%;
     }
 }
