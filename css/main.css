@@ -93,6 +93,7 @@ h1 {
 /* footer */
 
 footer {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,6 +196,10 @@ i {
 
     .banner {
         width: 60%;
+    }
+
+    .banner img {
+        width: 300px;
     }
 
     .content .text {
