@@ -7,6 +7,7 @@
     text-decoration: none;
     box-sizing: border-box;
     font-size: 24px;
+    font-family: sans-serif;
 }
 /* nav */
 nav {
@@ -37,5 +38,166 @@ nav {
 .menu-item li .active {
     color: #F61D1D;
 }
-
 /* end nav */
+
+/* content */
+.content {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.content .text {
+    width: 60%;
+    margin-right: 150px;
+    line-height: 1.7;
+}
+
+.btn {
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 30px;
+    padding: 15px 40px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    background-color: #000;
+}
+
+.no-bg {
+    background-color: #fff;
+}
+
+.btn a {
+    color: #fff;
+}
+
+.no-bg a {
+    color: #000;
+}
+
+.btn:hover,.btn a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+h1 {
+    color: #F61D1D;
+    font-size: 64px;
+}
+
+.content .banner, .text {
+    width: 50%;
+}
+/* end content */
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #039BE5;
+    padding: 10px;
+}
+
+.cicle {
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    margin-top: 10px;
+    display: flex;
+}
+
+i {
+    padding: 10px;
+    color: #039BE5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .content, .banner, .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text {
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 200px;
+    }
+
+}
+
+@media screen and (max-width:615px) {
+    * {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .menu-item li {
+        padding: 5px;
+    }
+
+    .menu-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item li a {
+        font-size: 18px;
+    }
+
+    .banner {
+        width: 60%;
+    }
+
+    .content .text {
+        width: 100%;
+    }
+}
