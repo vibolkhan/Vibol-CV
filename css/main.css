@@ -235,6 +235,7 @@ h3 {
         width: 100%;
     }
     h1 {
+        padding: 10px;
         font-size: 38px;
     }
     h2 {
@@ -271,8 +272,11 @@ h3 {
         padding: 0;
     }
     .card-body {
-        padding: 10px;
+        padding: 20px;
         width: 100%;
+    }
+    .card-body p {
+        text-align: left;
     }
     footer {
         width: 100%;
@@ -304,7 +308,7 @@ h3 {
         font-size: 20px;
     }
     h1 {
-        font-size: 28px;
+        font-size: 20px;
     }
     h2 {
         font-size: 20px;
