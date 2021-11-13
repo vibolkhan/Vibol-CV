@@ -60,6 +60,7 @@ span {
 }
 
 .btn {
+    text-align: center;
     background-color: #000;
     padding: 10px 30px;
     border: 1px solid #000;
@@ -168,6 +169,7 @@ i {
 
 .side-img img {
     width: 100%;
+    border-radius: 25px;
 }
 
 .side-text {
