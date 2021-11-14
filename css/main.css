@@ -383,6 +383,10 @@ iframe {
         display: flex;
         flex-direction: column;
     }
+    .row-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 /* Phone */
 @media screen and (max-width:615px) {
@@ -450,5 +454,9 @@ iframe {
     .ml-10 {
         margin-left: 0px;
         padding: 10px 0;
+    }
+    .row-4 {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
