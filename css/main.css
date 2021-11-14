@@ -142,6 +142,10 @@ footer {
     align-items: center;
 }
 
+.card i  {
+    text-align: center;
+}
+
 i {
     padding: 10px;
     color: #039BE5;
@@ -196,6 +200,15 @@ i {
     cursor: pointer;
 }
 
+.card-header {
+    text-align: center;
+    padding: 0px;
+}
+
+.card-header h3 {
+    padding: 0;
+}
+
 .card-body {
     padding: 50px 20px;
 }
@@ -206,6 +219,24 @@ i {
 
 .ml-10 {
     margin-left: 10px;
+}
+
+.row-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.row-4 .card-body {
+    padding: 0px 20px;
+}
+
+.card-body ul {
+    padding: 20px;
+}
+
+.card-body ul li {
+    list-style: circle;
 }
 
 .main-content {
